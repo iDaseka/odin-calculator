@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="calculator">
+    <h1 id="result" style="padding-right: 3vh;">0</h1>
+    <div class="row">
+        <button data-operator="clear" class="op"style="color: darkorange;">Clear</button>
+        <button data-operator="delete" class="op" style="color: darkorange;">←</button>
+        <button data-operator="%" class="op" style="color: darkorange;">%</button>
+        <button data-operator="/" class="op" style="color: darkorange;">/</button>
+    </div>
+    <div class="row">
+        <button data-value="7" class="num">7</button>
+        <button data-value="8" class="num">8</button>
+        <button data-value="9" class="num">9</button>
+        <button data-operator="*" class="op" style="color: darkorange;">*</button>
+    </div>
+    <div class="row">
+        <button data-value="4" class="num">4</button>
+        <button data-value="5" class="num">5</button>
+        <button data-value="6" class="num">6</button>
+        <button data-operator="-" class="op" style="color: darkorange;">-</button>
+    </div>
+    <div class="row">
+        <button data-value="1" class="num">1</button>
+        <button data-value="2" class="num">2</button>
+        <button data-value="3" class="num">3</button>
+        <button data-operator="+" class="op" style="color: darkorange;">+</button>
+    </div>
+    <div class="row">
+        <button data-value="0" class="num">0</button>
+        <button data-value="." class="num">.</button>
+        <button data-operator='equal' class="op" style="background-color: darkorange;">=</button>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

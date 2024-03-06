@@ -1,0 +1,31 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: whitesmoke;
+    font-size: xx-large;
+    line-height: 0;
+    padding: 0vh;
+    margin: 0vh;
+}
+
+.calculator{
+    display: flex;
+    gap: 1vh;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+button{
+    color: whitesmoke;
+    
+    background-color: rgb(3, 3, 3);
+    font-size: x-large;
+    border-radius: 100%;
+    border: none;
+    height: 12vh;
+    width: 12vh;
+}
